@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style parent="@android:style/TextAppearance.Small" name="ListTextShadowSmall">
+		<item name="android:shadowColor">@color/text_shadow</item>
+		<item name="android:shadowDx">1.5</item>
+		<item name="android:shadowDy">1.5</item>
+		<item name="android:shadowRadius">1.5</item>
+	</style>
+	<style parent="@android:style/TextAppearance.Medium" name="ListTextShadowMedium">
+		<item name="android:shadowColor">@color/text_shadow</item>
+		<item name="android:shadowDx">1.5</item>
+		<item name="android:shadowDy">1.5</item>
+		<item name="android:shadowRadius">1.5</item>
+	</style>
+		<style parent="@android:style/TextAppearance.Large" name="ListTextShadowLarge">
+		<item name="android:shadowColor">@color/text_shadow</item>
+		<item name="android:shadowDx">1.5</item>
+		<item name="android:shadowDy">1.5</item>
+		<item name="android:shadowRadius">1.5</item>
+	</style>
+	<style parent="@android:style/TextAppearance.Small" name="ListTextSmall">
+	</style>
+	<style parent="@android:style/TextAppearance.Medium" name="ListTextMedium">
+	</style>
+	<style parent="@android:style/TextAppearance.Large" name="ListTextLarge">
+	</style>
+</resources>

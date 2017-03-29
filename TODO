@@ -1,0 +1,8 @@
+* Save last position on list and use it when apropriate...
+	- like navigating between activities, refresh, etc  DONE
+
+* Add refresh support
+	- pull to refresh or a refresh button. Partialy DONE
+* Search
+
+* Treat null values from the API.

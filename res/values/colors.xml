@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="actionbar_separator">#36003b</color>
+	<color name="actionbar_background_start">#ae62b6</color>
+	<color name="actionbar_background_end">#690071</color>
+	<color name="actionbar_background_item_pressed_start">#e513ed</color>
+	<color name="actionbar_background_item_pressed_end">#e50aed</color>
+	<color name="text_grey">#a5a6a8</color>
+	<color name="text_purple">#b046a2</color>
+	<color name="text_white">#ffffff</color>
+	<color name="text_shadow">#000000</color>
+	<color name="list_bg_end">#18191d</color>
+	<color name="list_bg_start">#28292f</color>
+	<color name="list_stroke">#35373e</color>
+
+	<color name="list_selected_start">#e515e5</color>
+	<color name="list_selected_end">#e5b1ef</color>
+</resources>

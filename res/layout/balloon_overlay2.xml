@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:paddingBottom="15dip" android:paddingLeft="10dip"
+	android:minWidth="200dip" android:id="@+id/balloon_main_layout"
+	android:background="@drawable/balloon_overlay_bg_selector"
+	android:paddingTop="0dip" android:paddingRight="0dip">
+	<RelativeLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:id="@+id/balloon_inner_layout" android:layout_alignParentLeft="true">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:id="@+id/balloon_item_icon" android:src="@drawable/party_icon"
+			android:layout_centerVertical="true" android:paddingTop="10dp"></ImageView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/balloon_item_title"
+			android:text="1ª Semana da Música Eletrônica - Kimik" android:textSize="16dip"
+			style="@style/ListTextShadowMedium" android:textColor="@color/text_white"
+			android:textStyle="bold" android:typeface="sans"
+			android:layout_toRightOf="@+id/balloon_item_icon"
+			android:layout_width="wrap_content" android:paddingTop="10dp" android:maxLines="2" android:layout_marginLeft="3dp" android:layout_marginRight="20dp"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/balloon_item_snippet"
+			android:text="balloon_item_snippet" android:textSize="12dip"
+			style="@style/ListTextShadowSmall" android:textColor="@color/text_grey"
+			android:layout_below="@+id/balloon_item_title"
+			android:layout_alignLeft="@+id/balloon_item_title"
+			android:layout_width="wrap_content" android:paddingBottom="5dp"></TextView>
+	</RelativeLayout>
+		<ImageView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true" android:src="@drawable/balloon_overlay_close"
+			android:paddingRight="5dp" android:paddingTop="5dp" android:id="@+id/close_img_button" android:layout_marginRight="45dp"></ImageView>
+</RelativeLayout>

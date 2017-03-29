@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@color/listitem_selector">
+		<TextView android:text="Baile Chic" android:layout_height="wrap_content"
+			android:id="@+id/eventName" android:layout_alignParentLeft="true"
+			android:layout_width="wrap_content" android:layout_marginLeft="5sp"
+			android:layout_marginTop="5sp" android:layout_marginRight="5sp"
+			style="@style/ListTextMedium"
+			android:textColor="@color/text_white"
+			android:textStyle="bold" android:typeface="sans"></TextView>
+		<TextView android:text="Show agora" android:layout_below="@+id/eventName"
+			android:layout_height="wrap_content" android:id="@+id/eventDate"
+			android:layout_width="wrap_content" android:layout_alignLeft="@+id/eventName"
+			style="@style/ListTextSmall" android:gravity="center"
+			android:textColor="@color/text_grey"></TextView>
+		<TextView android:layout_below="@+id/eventDate"
+			android:layout_width="wrap_content" android:text="43.7km daqui"
+			android:id="@+id/eventDistance" android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/eventDate" style="@style/ListTextSmall"
+			android:gravity="center" android:textColor="@color/text_grey"></TextView>
+		<TextView android:layout_below="@+id/eventName"
+			android:text="Bar Alternativo"
+			android:id="@+id/eventWhere" android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/eventDate" android:layout_marginLeft="5sp"
+			android:layout_marginRight="5sp" style="@style/ListTextSmall"
+			android:textColor="@color/text_purple" android:layout_width="fill_parent" android:gravity="center|right"></TextView>
+		<TextView android:layout_below="@+id/eventWhere"
+			android:text="Novo Hamburgo"
+			android:id="@+id/eventCity" android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/eventDistance" android:layout_marginLeft="5sp"
+			android:layout_marginRight="5sp" android:layout_marginBottom="5sp"
+			style="@style/ListTextSmall" android:textColor="@color/text_purple" android:layout_width="fill_parent" android:gravity="center|right"></TextView>
+</RelativeLayout>

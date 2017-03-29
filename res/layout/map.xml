@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:id="@+id/mapLayout" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent">
+	<com.markupartist.android.widget.ActionBar
+		android:id="@+id/mapActionBar" style="@style/ActionBar">
+	</com.markupartist.android.widget.ActionBar>
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/mapActionBar"
+		android:enabled="true" android:clickable="true"
+		android:apiKey="0ke3XWzUANxxj1LnCSUOwpOZhyx2hoIh9bZ8_7g"/>
+</RelativeLayout>
